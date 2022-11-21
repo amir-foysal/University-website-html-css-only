@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/9c4158f977.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
@@ -17,8 +18,9 @@
 
         <nav>
             <a href="index.html"><img src="./img/logo.png" alt="logo"></a>
-            <div class="nav-links">
-
+            <div class="nav-links" id="navLinks">
+                
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -27,14 +29,151 @@
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
-            <h1>Bangladeshi Most  Popular University</h1>
+            <h1>World's Biggest University</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <a href="" class="hero-btn">Visit us to know more</a>
         </div>
     </section>
 
+    <!---------------- Course --------------->
 
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga dolorem veniam esse, suscipit molestias optio.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit rem officia sapiente temporibus laudantium quas sed voluptates ipsa, voluptate voluptas.</p>
+            </div>
+        
+        
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit rem officia sapiente temporibus laudantium quas sed voluptates ipsa, voluptate voluptas.</p>
+            </div>
+        
+        
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit rem officia sapiente temporibus laudantium quas sed voluptates ipsa, voluptate voluptas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!---------------- Course end --------------->
+
+    <!---------------- Campus ----------------->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="./img/london.png" alt="">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./img/newyork.png" alt="">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./img/washington.png" alt="">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------- Facilities ----------------->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./img/library.png" alt="">
+                <h3>World Class library</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia est cum, obcaecati nisi molestias placeat.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./img/basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia est cum, obcaecati nisi molestias placeat.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./img/cafeteria.png" alt="">
+                <h3>Testy and Healthy Food</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia est cum, obcaecati nisi molestias placeat.</p>
+            </div>
+        </div>
+    </section>
+
+    <!----------------- Testimonials --------------->
+
+    <section class="testimonials">
+        <h1>What Our Student Say</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="./img/user1.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam commodi molestias adipisci enim quasi nisi.</p>
+                    <h3>Christine Berkley</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="./img/user2.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam commodi molestias adipisci enim quasi nisi.</p>
+                    <h3>Devid Bayer</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- call to action -->
+
+    <section class="cta">
+        <h1>Enroll for Various Online Class<br>from the World</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae cupiditate eaque porro ipsum excepturi quod dignissimos officiis reiciendis ab sint.</p>
+        <div class="icons">
+            <a href=""><i class="fa fa-facebook-official"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p> ©Copyright by Amir Foysal</p>
+    </section>
+
+    <script src="./script.js"></script>
 </body>
 </html>
